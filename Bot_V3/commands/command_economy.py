@@ -1127,7 +1127,7 @@ class Event(commands.Cog):
         # Création de l'embed pour la réponse
         embed = discord.Embed(
             title="Argent retiré",
-            description=f"{ctx.author.mention} a retiré **{amount if amount else 'tout l\'argent'}** de {member.mention}.",
+            description=f"{ctx.author.mention} a retiré **{amount if amount else 'tout l argent'}** de {member.mention}.",
             color=discord.Color.red()
         )
         embed.set_footer(icon_url=self.bot.user.avatar.url, text=random.choice(list_embed))
